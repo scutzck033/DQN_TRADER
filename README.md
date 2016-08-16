@@ -1,7 +1,7 @@
 # DQN_TRAINER
 
 1.运行：
-A.运行train_sin_data.lua文件，对模型进行训练，训练完成后的模型会以文件形式存在DQN目录下。
+A.运行train_sin_data.lua文件，对模型进行训练，训练完成后的模型会以文件形式存在dqn目录下。
 命令： ./run_gpu breakout (第一次运行需要修改run_gpu中最后一行train_sin_data.lua的路径)
 B.运行test_sin_data.lua文件，对训练的模型进行测试
 命令：./test_gpu breakout 模型名 (第一次运行需要修改test_gpu中最后一行test_sin_data.lua的路径)
