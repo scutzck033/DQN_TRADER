@@ -1,5 +1,9 @@
 # DQN_TRAINER
 
+--在运行项目之前请先转至DQN目录，运行命令：
+./install_dependencies.sh
+--以安装相关的torch库
+
 1.运行：
 A.运行train_sin_data.lua文件，对模型进行训练，训练完成后的模型会以文件形式存在dqn目录下。
 命令： ./run_gpu breakout (第一次运行需要修改run_gpu中最后一行train_sin_data.lua的路径)
