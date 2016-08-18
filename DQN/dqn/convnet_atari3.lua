@@ -8,7 +8,7 @@ require 'convnet'
 
 return function(args)
   args.n_units        = {32, 64}
-    args.filter_size    = {2, 2}
+    args.filter_size    = {8, 8}
     args.filter_stride  = {1, 1}
 --    args.n_units        = {32, 64, 64}
 --    args.filter_size    = {2, 2, 2}
